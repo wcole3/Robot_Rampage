@@ -10,6 +10,9 @@ This is a FPS based of the tutorial in "Unity Games by Tutorials" with alteratio
 2. Added several sound effects and mixed the sound using Sound manager
   a. Added female player hurt sound effect
   b. Added item pickup sound effect
+  c. Sounds were mixed so the effect of hitting a robot is obvious to the player
+  d. Robots tried to take revenge on player upon death by blaring their death sound effect, this was remixed to not deafen 
+     the player
   
 3. Adjust world physics so player can no longer permanently mount dead robots
 
