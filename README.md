@@ -11,7 +11,7 @@ This is a FPS based of the tutorial in "Unity Games by Tutorials" with alteratio
   a. Added female player hurt sound effect
   b. Added item pickup sound effect
   
-3. Adjust world physics so player can no longer mount dead robots
+3. Adjust world physics so player can no longer permanently mount dead robots
 
 4. Missles no longer launch player into the Unity multiverse
 
