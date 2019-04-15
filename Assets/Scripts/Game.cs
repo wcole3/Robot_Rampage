@@ -25,6 +25,8 @@ public class Game : MonoBehaviour {
     //the game over panel
     public GameObject gameOverPanel;
 
+    private int countdownValue;
+
 	// Use this for initialization
 	void Start () {
         singleton = this;
@@ -33,6 +35,7 @@ public class Game : MonoBehaviour {
         robotsLeft = 0;
         StartCoroutine("UpdateWaveCountdown");
         SpawnRobots();
+        countdownValue = WaveCountdown;
     }
 	
 	// Update is called once per frame
@@ -62,7 +65,7 @@ public class Game : MonoBehaviour {
             //check if its time to spawn the next wave
             if (WaveCountdown == 0)
             {
-                WaveCountdown = 30;
+                WaveCountdown = countdownValue;
                 SpawnRobots();
                 gameUI.ShowNewWaveText();
             }

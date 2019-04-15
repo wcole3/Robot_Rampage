@@ -21,7 +21,7 @@ public class Missile : MonoBehaviour {
 
     IEnumerator DeathTimer()
     {
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(5);
         Destroy(gameObject);
     }
     //when missile hits the player do damage

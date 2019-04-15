@@ -65,7 +65,7 @@ public class Robot : MonoBehaviour {
         //setup the missile
         GameObject missile = (GameObject)Instantiate(missilePrefab);
         missile.transform.position = missleFireSpot.transform.position;
-        missile.transform.rotation = missleFireSpot.transform.rotation;
+        missile.transform.LookAt(killTarget);
         robot.Play("Fire");
         GetComponent<AudioSource>().PlayOneShot(fireSound);
     }

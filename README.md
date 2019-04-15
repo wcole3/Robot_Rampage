@@ -3,6 +3,7 @@ A FPS arena with lots of robots
 
 This is a FPS based of the tutorial in "Unity Games by Tutorials" with alterations
 
+
 ## Version 1.1
 
 1. Tightened player movement and removed slow decel
@@ -19,3 +20,9 @@ This is a FPS based of the tutorial in "Unity Games by Tutorials" with alteratio
  a. Wave spawn timer was also lowered
  
 6. Small optimizations for item cleanup
+
+7. Fixed robot aim to more regularly hit their target
+
+8. Added an additional teleporter to the arena
+
+9.  The player can no longer ride missiles, it's cool in fortnite but not here
