@@ -1,7 +1,7 @@
 # Robot_Rampage
 A FPS arena with lots of robots
 
-This is a FPS based of the tutorial in "Unity Games by Tutorials" with alterations
+This is a FPS based off the tutorial in "Unity Games by Tutorials" with alterations
 
 
 ## Version 1.1
